@@ -11,6 +11,6 @@ ActionMailer::Base.smtp_settings ={
     :user_name => EMW['SENDGRID_USERNAME'],
     :password => EMW['SENDGRID_PASSWORD'],
     :domain => 'heroku.com',
-    :enable_startstls_ => true
+    :enable_startstls_auto => true
     
 }
